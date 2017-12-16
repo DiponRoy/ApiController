@@ -1,1 +1,0 @@
-http://localhost:50012/api/Product/LoadProductWithId?id=1

@@ -1,0 +1,24 @@
+
+GET: http://localhost:50012/api/Products
+
+GET: http://localhost:50012/api/Products/1
+
+POST: http://localhost:50012/api/Products
+Content-Type: application/json; charset=utf-8
+{
+	Name:"book",
+	Quantity:1,
+	BoxSize:2,
+	Price:3.5
+}
+
+PUT: http://localhost:50012/api/Products/11
+Content-Type: application/json; charset=utf-8
+{
+	Name:"book1",
+	Quantity:10,
+	BoxSize:20,
+	Price:5
+}
+
+DELETE: http://localhost:50012/api/Products/11
